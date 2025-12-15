@@ -4,7 +4,6 @@ Watchface for the Pebble Time watch. Supports Basalt, Emery, and Chalk.
 
 ![Demo](./screenshots/demo.png)
 ![Basalt](./screenshots/basalt.png)
-![Emery](./screenshots/emery.png)
 ![Chalk](./screenshots/chalk.png)
 
 Font: [MochiBop](https://www.1001fonts.com/mochibop-font.html)
