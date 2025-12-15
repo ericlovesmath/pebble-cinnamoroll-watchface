@@ -1,6 +1,6 @@
 # Cinnamoroll Pebble Watchface
 
-![Demo Image](./demo.png)
+![Basalt](./screenshots/basalt.png)
 
 Font: [MochiBop](https://www.1001fonts.com/mochibop-font.html)
 
