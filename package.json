@@ -1,12 +1,18 @@
 {
-  "name": "pebble",
-  "author": "MakeAwesomeHappen",
+  "name": "Cinnamoroll",
+  "author": "ericlovesmath",
   "version": "1.0.0",
-  "keywords": ["pebble-app"],
+  "keywords": [
+    "pebble-app",
+    "watchface",
+    "sanrio",
+    "cinnamoroll",
+    "cinnamon"
+  ],
   "private": true,
   "dependencies": {},
   "pebble": {
-    "displayName": "pebble",
+    "displayName": "Cinnamoroll",
     "uuid": "acfb9f6d-81bd-4ac2-991a-855b0ff55c07",
     "sdkVersion": "3",
     "enableMultiJS": true,
@@ -14,16 +20,29 @@
       "aplite",
       "basalt",
       "chalk",
-      "diorite"
+      "diorite",
+      "emery"
     ],
     "watchapp": {
-      "watchface": false
+      "watchface": true
     },
     "messageKeys": [
       "dummy"
     ],
     "resources": {
-      "media": []
+      "media": [
+        {
+          "type": "font",
+          "name": "FONT_MOCHIBOP_DOS_48",
+          "file": "fonts/mochibop.ttf",
+          "compatibility" : "2.7"
+        },
+        {
+          "type": "bitmap",
+          "name": "IMAGE_BACKGROUND",
+          "file": "images/roll.png"
+        }
+      ]
     }
   }
 }
