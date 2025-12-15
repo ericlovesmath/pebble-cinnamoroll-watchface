@@ -1,5 +1,5 @@
 {
-  description = "A new Pebble app";
+  description = "Pebble Cinnamoroll Watchface";
 
   inputs = {
     pebble.url = "github:pebble-dev/pebble.nix";

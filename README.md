@@ -1,5 +1,7 @@
 # Cinnamoroll Pebble Watchface
 
+Watchface for the Pebble Time watch. Supports Basalt, Emery, and Chalk.
+
 ![Basalt](./screenshots/basalt.png)
 
 Font: [MochiBop](https://www.1001fonts.com/mochibop-font.html)

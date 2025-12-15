@@ -42,8 +42,8 @@ static void main_window_load(Window *window) {
   layer_add_child(window_layer, bitmap_layer_get_layer(s_background_layer));
 
   // Create the TextLayer with specific bounds
-  s_time_layer = text_layer_create(
-      GRect(0, PBL_IF_ROUND_ELSE(58, 115), bounds.size.w, 50));
+  int16_t y = PBL_PLATFORM_SWITCH(PBL_PLATFORM_TYPE_CURRENT, 0, 115, 118, 0, 160);
+  s_time_layer = text_layer_create(GRect(0, y, bounds.size.w, 50));
 
   // Initialize time text
   GFont font_bitham = fonts_get_system_font(FONT_KEY_BITHAM_42_BOLD);
